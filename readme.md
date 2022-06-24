@@ -1,0 +1,1 @@
+POST JSON "cat: "${nameofcat}" to /cats. Successful post will log "Added new cat!" And push value to array of cats.
