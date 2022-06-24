@@ -13,7 +13,7 @@ app.get('/cats', (req, res) => {
 })
 
 app.post('/cats', (req, res) => {
-    let newCat = req.body.cat //will be the input from the text field
+    let newCat = req.body.cat
     cats.push(newCat);
     console.log("Added New Cat", cats);
     res.send(JSON.stringify(cats))
